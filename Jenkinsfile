@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('SCM') {
-            steps {
-                git 'git@github.com:Dima-Mirosh/js.git'
-            }
-        }
         stage('SonarQube analysis') {
             steps {
                     sh "def scannerHome = tool 'SonarScanner'"
