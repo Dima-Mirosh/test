@@ -1,7 +1,7 @@
 node {
   
   stage('SCM') {
-        git 'git@github.com:Dima-Mirosh/js.git'  
+        git 'https://github.com/Dima-Mirosh/test.git'  
   }
 
   
