@@ -11,7 +11,8 @@ class GFG {
         
         int array = null;
         
-        int barray = array + 2;
+        int barray = array + 2; 
+        orgpeomgpoemgpom
         
         Arrays.sort(arr); 
         System.out.println("\nThe sorted array is: "); 
