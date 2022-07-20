@@ -8,6 +8,9 @@ class GFG {
         for (int num : arr) { 
             System.out.print(num + " "); 
         } 
+        
+        int array = null;
+      
         Arrays.sort(arr); 
         System.out.println("\nThe sorted array is: "); 
         for (int num : arr) { 
