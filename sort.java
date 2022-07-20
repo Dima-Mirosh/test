@@ -10,7 +10,9 @@ class GFG {
         } 
         
         int array = null;
-      
+        
+        int barray = array + 2;
+        
         Arrays.sort(arr); 
         System.out.println("\nThe sorted array is: "); 
         for (int num : arr) { 
